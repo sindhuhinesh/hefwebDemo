@@ -1,0 +1,11 @@
+<div class="card-top container-fluid">
+  <div class="container d-flex">
+    <div class="item" *ngFor="let cat of category">
+      <a (click)="ShowCategoryDetails(cat)">
+        <img src="{{cat.category_image}}" alt="" srcset="">
+        <h6>{{cat.category_name}}</h6>
+      </a>
+    </div>
+  </div>
+</div>
+<hr style="margin: 0;">

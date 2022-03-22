@@ -1,0 +1,9 @@
+.item img{
+width: 70px;
+}
+
+.item{
+  margin: 0px 15px;
+  margin-top: 10px;
+  text-align: center;
+}
